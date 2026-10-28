@@ -43,7 +43,7 @@
   }
   </script>
 </head>
-<body>
+<body class="site-body">
   <a class="skip-link" href="#main">Перейти к содержимому</a>
 
   <!-- SVG-спрайт иконок -->
@@ -711,10 +711,10 @@
                 <textarea id="message" name="message" rows="3" placeholder="Например: нужно покрасить бампер и убрать вмятину на двери"></textarea>
               </div>
 
-              <label class="checkbox">
+              <div class="checkbox">
                 <input type="checkbox" id="consent" name="consent" aria-describedby="consent-error" required>
-                <span>Согласен на обработку персональных данных для связи по заявке <span class="required">*</span></span>
-              </label>
+                <label for="consent">Я даю согласие на обработку моих персональных данных в соответствии с <a href="privacy.html" target="_blank" rel="noopener">Политикой конфиденциальности</a> <span class="required">*</span></label>
+              </div>
               <span class="field__error field__error--consent" id="consent-error" data-error-for="consent" aria-live="polite"></span>
 
               <div class="form-error" id="form-error" role="alert" hidden>
@@ -798,6 +798,11 @@
         <p>© <span id="year">2026</span> ООО «Комодский варан». Все права защищены.</p>
         <p>ООО «Комодский варан» · УНП 291187414 · 225409, г. Барановичи, ул. Маяковского, 13/1</p>
         <p>Информация на сайте не является публичной офертой.</p>
+      </div>
+
+      <div class="footer__privacy">
+        <span>Оператор персональных данных — ООО «Комодский варан», УНП 291187414.</span>
+        <a href="privacy.html">Политика конфиденциальности</a>
       </div>
     </div>
   </footer>

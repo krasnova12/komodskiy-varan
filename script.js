@@ -229,7 +229,7 @@
     }
 
     if (!consentField || !consentField.checked) {
-      setError("consent", "Нужно согласие на обработку данных, чтобы мы могли ответить");
+      setError("consent", "Подтвердите согласие на обработку персональных данных");
       valid = false;
       firstInvalid = firstInvalid || consentField;
     }
