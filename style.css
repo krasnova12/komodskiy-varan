@@ -3599,3 +3599,18 @@ button {
     animation: none;
   }
 }
+@media (max-width: 768px) {
+  /* Увеличиваем основной текст в карточках и блоках */
+  .hero__lead,
+  .section-head p,
+  .why-card p,
+  .transport-card p,
+  .service-card p,
+  .review-card__text,
+  .contact-card__strong,
+  .person-card p,
+  .policy p,
+  .policy li {
+    font-size: 16px; /* Возвращаем стандартные 16px вместо 13-14px */
+    line-height: 1.6;
+  }
